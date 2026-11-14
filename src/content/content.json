@@ -1,0 +1,600 @@
+{
+  "meta": {
+    "title": "Valliyappan — Full Stack Engineer",
+    "description": "Valliyappan is a full stack engineer at Google Operations Center, building web apps and backend services with React, Node.js, NestJS and Python. Selected work, writing and experience.",
+    "updated": "November 2026"
+  },
+  "profile": {
+    "name": "Valliyappan",
+    "pronunciation": "varkash05",
+    "initials": "V",
+    "role": "Full Stack Engineer",
+    "location": "Hyderabad, India",
+    "avatar": "https://media.licdn.com/dms/image/v2/D5603AQHMjPSmOqH4Dg/profile-displayphoto-scale_400_400/B56Z1w9UruH4Ag-/0/1775716618106?e=1796256000&v=beta&t=RD_3Q4sucQG9V-dPjOdhviqTZqpYsStw72rq06svUoU",
+    "email": "valliyappan.59@gmail.com",
+    "resumeUrl": "#",
+    "status": "Open to new roles",
+    "socials": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/varksh05"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/valliyappan05"
+      },
+      {
+        "label": "X",
+        "url": "https://x.com/"
+      }
+    ]
+  },
+  "hero": {
+    "title": "I build software that feels",
+    "highlights": [
+      "calm, fast and obvious.",
+      "a joy to use.",
+      "simple to change.",
+      "fast by default."
+    ],
+    "subtitle": "I design and ship products end to end — from data models and APIs to the last pixel of the UI. Lately I’m exploring how AI can make everyday tools feel more human."
+  },
+  "stats": [
+    {
+      "value": "5+",
+      "label": "Years shipping products"
+    },
+    {
+      "value": "10+",
+      "label": "Projects shipped"
+    },
+    {
+      "value": "2.4K+",
+      "label": "People using my work"
+    },
+    {
+      "value": "+21 pts",
+      "label": "Best activation lift"
+    }
+  ],
+  "idCard": {
+    "label": "Google Operations Center",
+    "idNumber": "VAL-202611",
+    "issued": "Nov 2026",
+    "openTo": "Chennai · On-site, hybrid or remote",
+    "stack": [
+      "React",
+      "Node.js",
+      "NestJS",
+      "Python",
+      "TypeScript"
+    ]
+  },
+  "projects": [
+    {
+      "slug": "ledger-lite",
+      "featured": true,
+      "title": "Ledger Lite",
+      "summary": "A personal finance tracker that categorises spending automatically and explains where the money went.",
+      "language": "TypeScript",
+      "year": 2026,
+      "tags": [
+        "React",
+        "TypeScript",
+        "Postgres"
+      ],
+      "cover": {
+        "image": "",
+        "colors": [
+          "#2563eb",
+          "#60a5fa"
+        ]
+      },
+      "metrics": [
+        {
+          "label": "Users",
+          "value": "2.4K+"
+        },
+        {
+          "label": "Load time",
+          "value": "0.8s"
+        },
+        {
+          "label": "Auto-categorised",
+          "value": "94%"
+        }
+      ],
+      "meta": [
+        {
+          "label": "Role",
+          "value": "Full-stack engineer"
+        },
+        {
+          "label": "Timeline",
+          "value": "4 months"
+        },
+        {
+          "label": "Stack",
+          "value": "React · Node · Postgres"
+        }
+      ],
+      "links": [
+        {
+          "label": "Live",
+          "url": "https://example.com"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/varksh05"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "The problem",
+          "body": "Most budgeting apps make you do the boring part yourself. People gave up within a week because categorising transactions felt like homework."
+        },
+        {
+          "heading": "What I built",
+          "body": "An import pipeline that reads bank statements, a rules engine plus a small model to categorise transactions, and a dashboard that answers one question well: where did my money go this month?"
+        },
+        {
+          "heading": "What I learned",
+          "body": "Trust matters more than accuracy. Showing *why* a transaction was categorised a certain way made people correct mistakes instead of abandoning the app."
+        }
+      ]
+    },
+    {
+      "slug": "trailhead",
+      "featured": true,
+      "title": "Trailhead",
+      "summary": "An onboarding flow that took new users from sign-up to their first success in under three minutes.",
+      "language": "TypeScript",
+      "year": 2025,
+      "tags": [
+        "React",
+        "Analytics"
+      ],
+      "cover": {
+        "image": "",
+        "colors": [
+          "#0f766e",
+          "#5eaaa8"
+        ]
+      },
+      "metrics": [
+        {
+          "label": "Activation",
+          "value": "31% → 52%"
+        },
+        {
+          "label": "Time to value",
+          "value": "< 3 min"
+        },
+        {
+          "label": "Experiments",
+          "value": "12"
+        }
+      ],
+      "meta": [
+        {
+          "label": "Role",
+          "value": "Frontend lead"
+        },
+        {
+          "label": "Timeline",
+          "value": "6 weeks"
+        },
+        {
+          "label": "Team",
+          "value": "3 engineers, 1 designer"
+        }
+      ],
+      "links": [],
+      "sections": [
+        {
+          "heading": "The problem",
+          "body": "Half of new sign-ups never came back after day one. The product was powerful but the first screen asked too much."
+        },
+        {
+          "heading": "Approach",
+          "body": "We cut the sign-up form to two fields, added a guided first task, and ran weekly A/B tests to keep what worked."
+        },
+        {
+          "heading": "Result",
+          "body": "Activation jumped from 31% to 52% and support tickets about getting started dropped by a third."
+        }
+      ]
+    },
+    {
+      "slug": "pulseboard",
+      "featured": false,
+      "title": "Pulseboard",
+      "summary": "A real-time status dashboard for internal services, with alerts people actually read.",
+      "language": "JavaScript",
+      "year": 2025,
+      "tags": [
+        "Node.js",
+        "WebSockets",
+        "DevOps"
+      ],
+      "cover": {
+        "image": "",
+        "colors": [
+          "#4f46e5",
+          "#a5b4fc"
+        ]
+      },
+      "metrics": [
+        {
+          "label": "Services",
+          "value": "40+"
+        },
+        {
+          "label": "Alert noise",
+          "value": "−60%"
+        }
+      ],
+      "meta": [
+        {
+          "label": "Role",
+          "value": "Backend engineer"
+        },
+        {
+          "label": "Timeline",
+          "value": "2 months"
+        }
+      ],
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/varksh05"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "One screen for the health of every internal service, with grouped alerts so on-call engineers see the cause, not fifty symptoms."
+        }
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "slug": "typed-api-layer",
+      "title": "What a typed API layer actually bought us",
+      "date": "2026-10-28",
+      "excerpt": "We moved every endpoint behind generated types. Bugs went down, but the bigger win was how it changed code review.",
+      "tags": [
+        "TypeScript",
+        "API design"
+      ],
+      "cover": {
+        "colors": [
+          "#2563eb",
+          "#93c5fd"
+        ]
+      },
+      "body": [
+        "Six months ago our frontend and backend agreed on data shapes the old-fashioned way: by hoping. This is what changed when we stopped hoping.",
+        "## The problem",
+        "Most of our production bugs weren't logic errors. They were **shape errors** — a field renamed on the server, an optional value treated as required, a date that was sometimes a string.",
+        "## What we did",
+        "- Generated TypeScript types from the API schema on every build",
+        "- Wrapped `fetch` in a tiny typed client so every call site is checked",
+        "- Made CI fail when the schema and the client disagree",
+        "```ts\nconst user = await api.get('/users/:id', { id })\n//    ^? User — no more guessing\n```",
+        "## The surprising part",
+        "> The real win wasn't fewer bugs. It was reviews that talk about behaviour instead of field names.",
+        "Reviewers stopped asking “is this field nullable?” because the compiler already answered. Discussions moved up a level, to whether the feature made sense."
+      ]
+    },
+    {
+      "slug": "onboarding-in-three-minutes",
+      "title": "Getting new users to “aha” in under three minutes",
+      "date": "2026-09-14",
+      "excerpt": "Notes from six weeks of onboarding experiments: what moved activation from 31% to 52%, and what didn’t.",
+      "tags": [
+        "Product",
+        "Experiments"
+      ],
+      "cover": {
+        "colors": [
+          "#0284c7",
+          "#7dd3fc"
+        ]
+      },
+      "body": [
+        "Half of our sign-ups never came back after day one. Here’s what we tried, in the order we tried it.",
+        "## Cut the form",
+        "We went from seven sign-up fields to two. Everything else could be asked later, *in context*.",
+        "## One guided first task",
+        "Instead of a product tour, new users complete one small real task. Doing beats reading.",
+        "## Measure weekly, keep what works",
+        "- 12 experiments in 6 weeks",
+        "- 4 shipped, 8 thrown away",
+        "- Activation: 31% → 52%",
+        "> Most experiments fail. The process is what wins."
+      ]
+    },
+    {
+      "slug": "calm-software",
+      "title": "Calm software",
+      "date": "2026-07-02",
+      "excerpt": "A short manifesto: software should load fast, say what it means, and never make you wonder what just happened.",
+      "tags": [
+        "Design",
+        "Craft"
+      ],
+      "cover": {
+        "colors": [
+          "#4f46e5",
+          "#c7d2fe"
+        ]
+      },
+      "body": [
+        "I keep coming back to one test for anything I build: does it feel **calm**?",
+        "## Calm is fast",
+        "Every spinner is a small interruption. Speed isn’t a feature, it’s the absence of friction.",
+        "## Calm is honest",
+        "Buttons say what they do. Errors say how to fix them. Nothing pretends to work when it didn’t.",
+        "## Calm is predictable",
+        "The same action always does the same thing, in the same place.",
+        "> Good software feels obvious. That takes a lot of work."
+      ]
+    }
+  ],
+  "about": {
+    "photo": "",
+    "headline": "An engineer who never stopped tinkering.",
+    "paragraphs": [
+      "I got into programming by automating chores nobody wanted to do. That habit stuck: I like finding the slow, annoying part of a system and making it disappear.",
+      "I work across the stack and I'm happiest on small teams where engineers talk directly to users — shipping, measuring, and iterating every week.",
+      "Away from the keyboard: long walks, filter coffee, and too many half-finished hardware projects."
+    ],
+    "now": [
+      {
+        "label": "Building",
+        "value": "This portfolio, with TanStack Start"
+      },
+      {
+        "label": "Learning",
+        "value": "Systems design & Rust"
+      },
+      {
+        "label": "Reading",
+        "value": "Designing Data-Intensive Applications"
+      }
+    ]
+  },
+  "resume": {
+    "experience": [
+      {
+        "company": "Google Operations Center",
+        "logo": "https://media.licdn.com/dms/image/v2/C510BAQH5E4NHWLdFBA/company-logo_100_100/company-logo_100_100/0/1630625543037?e=1796256000&v=beta&t=w2kmyqNAt6rZO6FK8764r9fe4qA_CS0nI8T8iuh8MkA",
+        "color": "#4285f4",
+        "url": "https://www.googleoperationscenter.com",
+        "employmentType": "Full-time",
+        "location": "Hyderabad, India",
+        "workplace": "Hybrid",
+        "roles": [
+          {
+            "title": "Full Stack Engineer",
+            "start": "2026-04",
+            "end": "",
+            "promotion": false,
+            "headline": "Building full-stack tools at Google Operations Center.",
+            "summary": "Today I design and build web applications end to end, from software design and backend services to the interface people use every day.",
+            "skills": [
+              "Software Design",
+              "Web Engineering"
+            ]
+          },
+          {
+            "title": "Tools and Automation Specialist",
+            "start": "2026-01",
+            "end": "2026-03",
+            "promotion": false,
+            "headline": "A new city, a new team.",
+            "summary": "Moved to Hyderabad to join Google Operations Center, building tools and automation in Python that take repetitive work off people's plates.",
+            "skills": [
+              "Python",
+              "Software Design",
+              "Software Infrastructure",
+              "Web Engineering"
+            ]
+          }
+        ]
+      },
+      {
+        "company": "Zuper",
+        "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQEBno6U35p69w/company-logo_100_100/B4EZ.DGHr9K4AM-/0/1784610847785/zuperco_logo?e=1796256000&v=beta&t=1ISglhWb7st93qYhkk5J5qegiP66ToHjK6G3AjwG3qU",
+        "color": "#111111",
+        "url": "https://zuper.co",
+        "employmentType": "Full-time",
+        "location": "Chennai, India",
+        "workplace": "On-site",
+        "roles": [
+          {
+            "title": "Senior Software Engineer I",
+            "start": "2025-04",
+            "end": "2025-12",
+            "promotion": true,
+            "headline": "Owning systems, reviews and pairing.",
+            "summary": "Designed, built and maintained scalable software systems. Worked with designers, product managers and engineers to turn requirements into working features, and ran code reviews and pair programming.",
+            "skills": [
+              "RabbitMQ",
+              "Workflow Management",
+              "Backend",
+              "REST APIs",
+              "Code Review"
+            ]
+          },
+          {
+            "title": "Software Engineer",
+            "start": "2023-05",
+            "end": "2025-12",
+            "promotion": true,
+            "headline": "Going deep on backend services.",
+            "summary": "Built backend services with NestJS and Node.js across a microservices architecture, added real-time features with Socket.io, and managed the projects I shipped.",
+            "skills": [
+              "NestJS",
+              "Node.js",
+              "Microservices",
+              "Socket.io",
+              "Project Management"
+            ]
+          },
+          {
+            "title": "Full Stack Developer",
+            "start": "2022-04",
+            "end": "2023-05",
+            "promotion": false,
+            "headline": "Joining Zuper as a full stack developer.",
+            "summary": "Started building REST APIs and serverless functions on AWS Lambda for Zuper's field service management platform.",
+            "skills": [
+              "AWS Lambda",
+              "REST APIs",
+              "Backend"
+            ]
+          }
+        ]
+      },
+      {
+        "company": "Lentera Technologies",
+        "logo": "https://media.licdn.com/dms/image/v2/C560BAQFS187uqev0HA/company-logo_100_100/company-logo_100_100/0/1677925461937?e=1796256000&v=beta&t=tf3MxwN4-tEiqiKId7zAkYmeSSKE88KmDZKqU9DAMko",
+        "color": "#0f766e",
+        "url": "",
+        "employmentType": "Apprenticeship",
+        "location": "Chennai, India",
+        "workplace": "",
+        "roles": [
+          {
+            "title": "Full-stack Developer",
+            "start": "2021-04",
+            "end": "2021-10",
+            "promotion": false,
+            "headline": "Where I started shipping code.",
+            "summary": "An apprenticeship building web apps with Spring Boot and Flask, working across both the front end and the back end.",
+            "skills": [
+              "Spring Boot",
+              "Flask",
+              "Front-End Development",
+              "Backend"
+            ]
+          }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "school": "SRM Institute of Science and Technology",
+        "logo": "https://media.licdn.com/dms/image/v2/C510BAQFVp-fBqkKQyg/company-logo_100_100/company-logo_100_100/0/1630625612861?e=1796256000&v=beta&t=2LSw09WShLcBXoVjd5wMBPPYdMDz3VqzzpQMFKnNJGY",
+        "color": "#1e3a8a",
+        "url": "",
+        "degree": "Master of Computer Applications (MCA)",
+        "field": "Computer Programming, Specific Applications",
+        "start": "2019-07",
+        "end": "2021-06",
+        "grade": "",
+        "location": "Chennai, India",
+        "headline": "Going deeper with a master's degree.",
+        "summary": "A Master of Computer Applications at SRM in Chennai, focused on front-end development and REST APIs.",
+        "skills": [
+          "Front-End Development",
+          "REST APIs"
+        ]
+      },
+      {
+        "school": "PSG College of Arts and Science",
+        "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQHBjcLiwupXIg/company-logo_100_100/company-logo_100_100/0/1630586897671/psg_college_of_arts_and_science_logo?e=1796256000&v=beta&t=-YJDETc7QQwvJXtLufJKbTpK0ga9jnJZQ3QZyMPoIlE",
+        "color": "#7c2d12",
+        "url": "",
+        "degree": "Bachelor of Computer Applications (BCA)",
+        "field": "Computer Programming, Specific Applications",
+        "start": "2016-06",
+        "end": "2019-04",
+        "grade": "",
+        "location": "Coimbatore, India",
+        "headline": "Where it all began.",
+        "summary": "A Bachelor of Computer Applications at PSG in Coimbatore, where I wrote my first real programs and first got into front-end development.",
+        "skills": [
+          "Front-End Development"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Frontend architecture",
+        "detail": "Component systems, state and data-fetching patterns that stay simple as apps grow."
+      },
+      {
+        "name": "API design",
+        "detail": "Typed, predictable contracts between frontend and backend."
+      },
+      {
+        "name": "Databases",
+        "detail": "Modelling data well and writing queries that stay fast."
+      },
+      {
+        "name": "Testing",
+        "detail": "Confidence through the right mix of unit, integration and e2e tests."
+      },
+      {
+        "name": "Performance",
+        "detail": "Fast first loads, smooth interactions, measured not guessed."
+      },
+      {
+        "name": "Product thinking",
+        "detail": "Starting from the user problem, shipping small, learning fast."
+      }
+    ],
+    "tools": [
+      {
+        "group": "Languages",
+        "items": [
+          "TypeScript",
+          "JavaScript",
+          "Python",
+          "Java"
+        ]
+      },
+      {
+        "group": "Frontend",
+        "items": [
+          "React",
+          "Angular",
+          "Vue",
+          "shadcn/ui"
+        ]
+      },
+      {
+        "group": "Backend",
+        "items": [
+          "Node.js",
+          "NestJS",
+          "Flask",
+          "Spring Boot",
+          "REST APIs"
+        ]
+      },
+      {
+        "group": "Infra & tools",
+        "items": [
+          "AWS Lambda",
+          "RabbitMQ",
+          "Socket.io",
+          "Git"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Let’s build something together.",
+    "blurb": "Hiring, collaborating, or just curious? Send a note — I usually reply within a day."
+  },
+  "footer": {
+    "tagline": "Designing and building calm, reliable software — one thoughtful release at a time.",
+    "ctaTitle": "Have a project in mind?",
+    "ctaText": "Whether it’s a role, a collaboration or a question about my work, I’d love to hear from you."
+  }
+}
