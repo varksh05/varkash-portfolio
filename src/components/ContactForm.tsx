@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useForm } from '@tanstack/react-form'
 import { ContactSchema, sendContactMessage } from '#/server/contact'
 import { Icon } from './Icon'
@@ -13,13 +13,17 @@ function errorText(errors: Array<unknown>) {
 
 export function ContactForm() {
   const [status, setStatus] = useState<Status>('idle')
+  // Spam signals sent with the message: when the form appeared, and a field only bots fill in.
+  const openedAt = useRef(0)
+  const [trap, setTrap] = useState('')
+  useEffect(() => { openedAt.current = Date.now() }, [])
 
   const form = useForm({
     defaultValues: { name: '', email: '', message: '' },
     validators: { onChange: ContactSchema },
     onSubmit: async ({ value, formApi }) => {
       try {
-        await sendContactMessage({ data: value })
+        await sendContactMessage({ data: { ...value, website: trap, openedAt: openedAt.current } })
         setStatus('sent')
         formApi.reset()
       } catch {
@@ -78,6 +82,12 @@ export function ContactForm() {
           }}
         </form.Field>
       ))}
+
+      {/* Hidden from people (and screen readers); bots that fill every field give themselves away. */}
+      <div className="hp-field" aria-hidden="true">
+        <label htmlFor="website">Website</label>
+        <input id="website" name="website" type="text" tabIndex={-1} autoComplete="off" value={trap} onChange={(e) => setTrap(e.target.value)} />
+      </div>
 
       <form.Subscribe selector={(s) => [s.canSubmit, s.isSubmitting] as const}>
         {([canSubmit, isSubmitting]) => (

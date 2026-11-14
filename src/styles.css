@@ -926,6 +926,8 @@ code { font-family: var(--mono); font-size: 0.9em; }
 .field-error { color: #f85149; font-size: 13px; }
 .contact-form .btn { align-self: flex-start; height: 44px; padding: 0 22px; }
 .form-status { font-size: 15px; color: var(--green); min-height: 1.4em; }
+/* Honeypot: off-screen rather than display:none, which some bots skip. */
+.hp-field { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
 
 /* ── Inner pages ── */
 .page-hero { position: relative; padding: calc(var(--nav-h) + 64px) 0 48px; overflow: hidden; }
