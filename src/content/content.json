@@ -72,6 +72,76 @@
   },
   "projects": [
     {
+      "slug": "rentwise",
+      "featured": true,
+      "title": "Rentwise",
+      "summary": "A rental management app for small landlords: properties, tenants, agreements, deposits and rent collection with overdue alerts.",
+      "language": "TypeScript",
+      "year": 2026,
+      "tags": [
+        "React",
+        "TypeScript",
+        "TanStack",
+        "Node",
+        "SQLite"
+      ],
+      "cover": {
+        "image": "",
+        "colors": [
+          "#7c3aed",
+          "#a78bfa"
+        ]
+      },
+      "metrics": [
+        {
+          "label": "Screens",
+          "value": "Dashboard → Tenants"
+        },
+        {
+          "label": "Storage",
+          "value": "SQLite"
+        },
+        {
+          "label": "API",
+          "value": "Versioned /v1"
+        }
+      ],
+      "meta": [
+        {
+          "label": "Role",
+          "value": "Solo full-stack developer"
+        },
+        {
+          "label": "Stack",
+          "value": "React · TanStack · Node · SQLite"
+        },
+        {
+          "label": "Testing",
+          "value": "Vitest"
+        }
+      ],
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/varksh05/rentwise"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "The problem",
+          "body": "Landlords with a handful of units end up tracking rent, deposits and repairs across spreadsheets and chat threads, and overdue rent slips through."
+        },
+        {
+          "heading": "What I built",
+          "body": "A React 18 + Vite app on the TanStack stack — Router for typed routes and search params, Query for data, Table for the payments ledger, Form for every form — backed by a small Node + SQLite server. A dashboard surfaces overdue and due-soon rent with WhatsApp/SMS reminders, occupancy, deposits held, open tickets and agreements ending."
+        },
+        {
+          "heading": "Design choices",
+          "body": "All rent, deposit and finance rules live only in the server domain layer, enforced by a build-time layer check. The API is versioned at `/api/v1` with an OpenAPI contract, consistent error shapes and named actions like `/renew` and `/settle-deposit`, so future mobile apps can rely on it."
+        }
+      ]
+    },
+    {
       "slug": "ledger-lite",
       "featured": true,
       "title": "Ledger Lite",
